@@ -629,6 +629,14 @@ nav .fa-solid{
     position: relative;
     overflow: hidden;
 }
+.projectslist div:nth-child(1),
+.projectslist div:nth-child(2),
+.projectslist div:nth-child(3),    
+.projectslist div:nth-child(4){
+    grid-column: 2;
+    display: grid;
+    grid-gap:15px;
+}
 .project img {
     width: 100%;
     border-radius: 10px;
